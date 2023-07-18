@@ -20,7 +20,7 @@ def run_game():
     while True:
         
         #Watch for game and keyboard events
-        gf.check_events()
+        gf.check_events(ship)
                 
         #Make the most recently drawn screen visible
         gf.update_screen(ai_settings, screen, ship)
